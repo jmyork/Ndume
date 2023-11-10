@@ -10,7 +10,6 @@ Install the Ndume package using npm:
 
 npm install ndume
 
-1. ** Usage **
 ## Usage
 const Ndume = require('ndume');
 
@@ -29,7 +28,6 @@ api.GET('/endpoint')
   .then(data => console.log(data))
   .catch(error => console.error('Error:', error));
 ```
-2. ** API **
 ## API
 new Ndume(baseRoute: string)
 Creates a new instance of Ndume with the specified base route.
@@ -62,10 +60,8 @@ PATCH(body: any, bodyType: string, path: string, params: Object): Promise<Respon
 Performs a PATCH request. Returns a Promise containing the PATCH request response.
 
 
-3. ** License **
 ## License
 
-4. ** Contribuition ** 
 ## Contribuições
 
 Fique à vontade para contribuir para este projeto. Veja o arquivo [CONTRIBUTING.md](CONTRIBUTING.md) para obter detalhes.
