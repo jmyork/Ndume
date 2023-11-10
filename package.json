@@ -1,24 +1,28 @@
 {
-    "name": "Ndume",
-    "version": "1.0.0",
-    "description": "Ndume is a JavaScript class designed to simplify API calls using the fetch method. It provides a convenient way to make HTTP requests with support for various HTTP methods, request headers, and request body formats.",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": ["Ndume", "API", "fetch", "HTTP"],
-    "author": "José Baptista",
-    "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/jmyork/Ndume"
-    },
-    "bugs": {
-      "url": "https://github.com/jmyork/Ndume/issues"
-    },
-    "homepage": "https://github.com/jmyork/Ndume#readme",
-    "dependencies": {
-      "ndume": "^1.0.0"
-    }
+  "name": "ndume",
+  "version": "1.0.0",
+  "description": "Ndume is a JavaScript class designed to simplify API calls using the fetch method. It provides a convenient way to make HTTP requests with support for various HTTP methods, request headers, and request body formats.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Ndume",
+    "API",
+    "fetch",
+    "HTTP"
+  ],
+  "author": "José Baptista",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmyork/Ndume.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jmyork/Ndume/issues"
+  },
+  "homepage": "https://github.com/jmyork/Ndume#readme",
+  "dependencies": {
+    "ndume": "^1.0.0"
   }
-  
+}
